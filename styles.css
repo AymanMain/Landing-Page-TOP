@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.topDarkBlue{
+    display:flex;
+    flex-direction:column;
+    background-color: brown;
+}
+    .topBar{
+        display:flex;
+        justify-content: space-between;
+    }
+        .headerLogo{
+            flex: 0 1 50%;
+        }
+        .Links{
+            display: flex;
+            flex: 0 1 25%;
+            justify-content: space-around;
+        }
+        .Links a{}
+    .hero{
+        display:flex
+    }
+        .herocontent{
+            display:flex
+        }
+            .herocontenttitle{}
+            .herocontenttext{}
+            .herocontent button{}
+            .heroImg img{}
+
+.somerandominfo{
+    display:flex
+}
+    .infoCard{
+        dipslay:flex
+    }
+        .infoCard img{}
+        .infoCard p{}
+
+.quote{
+    display:flex
+}
+    .quotetext{}
+    .quoter{}
+
+
+.calltoaction{
+    display:flex
+}
+    .LCtaArea{
+        display: flex;
+    }
+        .ctatext{}
+        .ctasubtext{}
+        .ctabtn button{}
+
+
+.footers{}
+    .footertext{}
